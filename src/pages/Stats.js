@@ -1,65 +1,10 @@
-
-//import { Bar } from "react-chartjs-2";
 import { Helmet } from "react-helmet";
-
 import BarchartD02 from "../components/statscharts/Day0yearwise";
 import BarchartD01 from "../components/statscharts/Day0companywise";
 import Lcchart from "../components/statscharts/Day0Branchwise";
 import BarchartD12a from "../components/statscharts/Day12companywise";
 import BarchartD12b from "../components/statscharts/Day12yearwise";
 import Lcchart12 from "../components/statscharts/Day12branchwise";
-
-
-/*import {
-
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
-
-export const options = {
-  responsive: true,
-  plugins: {
-    legend: {
-      position: "top",
-    },
-    title: {
-      display: true,
-      text: "Chart.js Bar Chart",
-    },
-  },
-};
-
-const labels = ["January", "February", "March", "April", "May", "June", "July"];
-
-export const data = {
-  labels,
-  datasets: [
-    {
-      label: "Dataset 1",
-      data: labels.map(() => 100),
-      backgroundColor: "rgba(255, 99, 132, 0.5)",
-    },
-    {
-      label: "Dataset 2",
-      data: labels.map(() => 50),
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
-    },
-  ],
-};*/
 
 export default function Stats() {
   return (
@@ -74,7 +19,6 @@ export default function Stats() {
         />
         <meta name="theme-color" content="#064420" />
       </Helmet>
-      {/* <Bar options={options} data={data} />; */}
       <div style={{textAlign: "center", margin:"2rem",fontWeight:"bold",fontSize:"3rem",fontFamily:"sans-serif",color:"rgba(238, 79, 152, 1) "}}>On Campus Placements 2021
       <BarchartD01/><BarchartD12a/><Lcchart/><BarchartD02/>
       <Lcchart12/><BarchartD12b/></div>

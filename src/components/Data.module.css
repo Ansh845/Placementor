@@ -58,6 +58,29 @@
    color:rgba(238, 109, 152, 1);
  
   }
+.li_styles{
+  padding-top: 0.6rem;
+  letter-spacing: 2px,;
+  font-weight: 620;
+}
+.li_styles2{
+  font-family: 'Ubuntu';
+  font-weight:  100;
+  letter-spacing: 0px;
+
+}
+.li_styles3{
+  padding-top: 0.6rem;
+  letter-spacing: 2px;
+  font-weight: 620;
+  text-align: left;
+}
+.rowStyles{
+  border: solid 2px black;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 12px
+}
 
 .frosty{
   text-align: center;
